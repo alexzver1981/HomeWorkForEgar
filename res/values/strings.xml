@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyHomeWorkForEgar</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="schedule">Расписание </string>
+    <string name="date">date</string>
+    <string name="time">time</string>
+    <string name="lesson_name">lessonName</string>
+    <string name="sorted_by_date">Сортировать по дате</string>
+    <string name="sorted_by_name">Сортировать по названию предмета</string>
+    <string name="load_schedule">Загрузка расписания  ...</string>
+
+</resources>
