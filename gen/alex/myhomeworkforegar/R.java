@@ -45,7 +45,7 @@ public final class R {
         public static final int hello_world=0x7f050002;
         public static final int lesson_name=0x7f050006;
         public static final int load_schedule=0x7f050009;
-        public static final int shedule=0x7f050003;
+        public static final int schedule=0x7f050003;
         public static final int sorted_by_date=0x7f050007;
         public static final int sorted_by_name=0x7f050008;
         public static final int time=0x7f050005;

@@ -123,7 +123,7 @@ public class MainActivity extends Activity {
 			    	url = new URL(params[0]);
 			        urlConnection = (HttpURLConnection) url.openConnection();		    
 			        urlConnection.setRequestMethod("GET");
-			        urlConnection.setDoOutput(true);
+			       // urlConnection.setDoOutput(true);
 			        urlConnection.connect();
 			        
 			        inputStream = urlConnection.getInputStream();
@@ -147,11 +147,11 @@ public class MainActivity extends Activity {
 			        
 			       } catch (MalformedURLException e) {
 			        e.printStackTrace();
-			        Log.d("Alex", "error " + e.toString());
+			        Log.d("Alex", "MalformedURLException " + e.toString());
 			        
 			       } catch (IOException e) {
 			        e.printStackTrace();
-			        Log.d("Alex", "error " + e.toString());
+			        Log.d("Alex", "IOException " + e.toString());
 			       }
 			    
 				return null;
